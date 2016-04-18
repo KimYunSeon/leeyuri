@@ -13,4 +13,8 @@ public class test {
 		test1 t = new test1();
 		assertEquals(3, t.three());
 	}
+	public void testTwo(){
+		test1 t = new test1();
+		assertEquals(2, t.two());
+	}
 }
